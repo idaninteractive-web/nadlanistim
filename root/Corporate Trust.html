@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>הנדלניסטים — קהילת אנשי הנדל״ן של ישראל</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Google+Sans+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles-light.css" />
+</head>
+<body>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo" aria-label="הנדלניסטים — דף הבית">
+      <span class="nav__logo-mark">N</span>
+      <span class="nav__logo-text">הנדלניסטים</span>
+    </a>
+    <nav class="nav__links" aria-label="ניווט ראשי">
+      <a href="#about">הקהילה</a>
+      <a href="#members">חברי הקהילה</a>
+      <a href="#stories">סיפורי הצלחה</a>
+      <a href="#events">אירועים</a>
+      <a href="#articles">תוכן מקצועי</a>
+      <a href="#contact">צרו קשר</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary nav__cta">
+      <span>הצטרפו לקהילה</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <button class="nav__menu" aria-label="פתח תפריט">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ HERO -->
+<section class="hero">
+  <div class="hero__media" data-parallax>
+    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=2400&q=80" alt="אירוע נטוורקינג של קהילת הנדלניסטים" />
+    <div class="hero__veil"></div>
+  </div>
+
+  <div class="hero__content">
+    <div class="hero__eyebrow reveal">
+      <span class="dot"></span>
+      <span>קהילה פעילה · 2017 — היום</span>
+    </div>
+
+    <h1 class="hero__title reveal" style="--d:.1s">
+      <span class="line">הקהילה</span>
+      <span class="line">שמחברת את עולם</span>
+      <span class="line"><em>הנדל״ן בישראל</em></span>
+    </h1>
+
+    <p class="hero__sub reveal" style="--d:.25s">
+      מקום אחד ליזמים, משקיעים, שמאים, עו״ד, קבלנים, מתווכים, אדריכלים<br />
+      ובעלי מקצוע — ליצור קשרים, ללמוד, להתפתח ולייצר הזדמנויות אמיתיות.
+    </p>
+
+    <div class="hero__cta reveal" style="--d:.4s">
+      <a href="#contact" class="btn btn--primary btn--lg">
+        <span>הצטרפו לקהילה</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#events" class="btn btn--ghost btn--lg">
+        <span>האירועים הקרובים</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__bottom">
+    <div class="hero__scroll">
+      <span>גלילה</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+    <div class="hero__caption">
+      <span class="hero__caption-num">01 / 13</span>
+      <span class="hero__caption-text">כנס הנדלניסטים השנתי · תל אביב</span>
+    </div>
+  </div>
+
+  <div class="hero__marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>יזמים</span><span class="diamond">◆</span>
+      <span>משקיעים</span><span class="diamond">◆</span>
+      <span>שמאים</span><span class="diamond">◆</span>
+      <span>עורכי דין</span><span class="diamond">◆</span>
+      <span>קבלנים</span><span class="diamond">◆</span>
+      <span>מתווכים</span><span class="diamond">◆</span>
+      <span>אדריכלים</span><span class="diamond">◆</span>
+      <span>חברות מימון</span><span class="diamond">◆</span>
+      <span>פרופטק</span><span class="diamond">◆</span>
+      <span>שיווק נדל״ן</span><span class="diamond">◆</span>
+      <!-- duplicate for loop -->
+      <span>יזמים</span><span class="diamond">◆</span>
+      <span>משקיעים</span><span class="diamond">◆</span>
+      <span>שמאים</span><span class="diamond">◆</span>
+      <span>עורכי דין</span><span class="diamond">◆</span>
+      <span>קבלנים</span><span class="diamond">◆</span>
+      <span>מתווכים</span><span class="diamond">◆</span>
+      <span>אדריכלים</span><span class="diamond">◆</span>
+      <span>חברות מימון</span><span class="diamond">◆</span>
+      <span>פרופטק</span><span class="diamond">◆</span>
+      <span>שיווק נדל״ן</span><span class="diamond">◆</span>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ TRUST NUMBERS -->
+<section class="stats">
+  <div class="container">
+    <div class="stats__head reveal">
+      <span class="eyebrow"><span class="dot"></span>הקהילה במספרים</span>
+      <h2>קהילה גדולה. <em>השפעה אמיתית.</em></h2>
+    </div>
+
+    <div class="stats__grid">
+      <div class="stat reveal" style="--d:.05s">
+        <div class="stat__num" data-count="3400">3,400+</div>
+        <div class="stat__label">חברי קהילה פעילים</div>
+        <div class="stat__bar"><span></span></div>
+      </div>
+      <div class="stat reveal" style="--d:.15s">
+        <div class="stat__num" data-count="120">120</div>
+        <div class="stat__label">אירועים מקצועיים בשנה</div>
+        <div class="stat__bar"><span style="--w:78%"></span></div>
+      </div>
+      <div class="stat reveal" style="--d:.25s">
+        <div class="stat__num" data-count="640">640+</div>
+        <div class="stat__label">שיתופי פעולה שנוצרו</div>
+        <div class="stat__bar"><span style="--w:62%"></span></div>
+      </div>
+      <div class="stat reveal" style="--d:.35s">
+        <div class="stat__num" data-count="280">280+</div>
+        <div class="stat__label">פרויקטים שנוצרו דרך הקהילה</div>
+        <div class="stat__bar"><span style="--w:46%"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ABOUT -->
+<section class="about" id="about">
+  <div class="container about__grid">
+    <div class="about__text">
+      <span class="eyebrow reveal"><span class="dot"></span>מי אנחנו</span>
+      <h2 class="reveal" style="--d:.1s">
+        לא פיד.<br/>
+        לא פורטל.<br/>
+        <em>קהילה.</em>
+      </h2>
+      <p class="reveal" style="--d:.2s">
+        הנדלניסטים היא קהילה מקצועית של מעל 3,400 אנשי נדל״ן בישראל —
+        אנשים שמייצרים יחד עסקאות, פרויקטים, ידע והזדמנויות.
+      </p>
+      <p class="reveal" style="--d:.3s">
+        אנחנו לא עוד מקום לקרוא בו תוכן. אנחנו המקום שבו אנשי הנדל״ן
+        הכי טובים בישראל נפגשים, מכירים, ועושים עסקים.
+      </p>
+
+      <ul class="about__list reveal" style="--d:.4s">
+        <li><span>01</span>חיבורים ישירים בין אנשי מקצוע</li>
+        <li><span>02</span>אירועי נטוורקינג פרימיום</li>
+        <li><span>03</span>למידה ושיתוף ידע ברמה הגבוהה בענף</li>
+        <li><span>04</span>הזדמנויות עסקיות שמתחילות בקהילה</li>
+      </ul>
+    </div>
+
+    <div class="about__media">
+      <figure class="about__img about__img--lg reveal" style="--d:.15s">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80" alt="מפגש מקצועי של חברי הקהילה" />
+      </figure>
+      <figure class="about__img about__img--sm reveal" style="--d:.3s">
+        <img src="https://images.unsplash.com/photo-1559223607-a43c990c692c?w=900&q=80" alt="פאנל מקצועי" />
+      </figure>
+      <div class="about__badge reveal" style="--d:.45s">
+        <div class="about__badge-num">7</div>
+        <div class="about__badge-text">שנים<br/>של קהילה</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WHO'S IN -->
+<section class="members" id="members">
+  <div class="container">
+    <header class="section-head">
+      <span class="eyebrow reveal"><span class="dot"></span>חברי הקהילה</span>
+      <h2 class="reveal" style="--d:.1s">הערך הוא <em>האנשים</em>.</h2>
+      <p class="section-sub reveal" style="--d:.2s">עשרה עולמות מקצועיים. אלפי אנשי מקצוע. גג אחד.</p>
+    </header>
+
+    <div class="members__grid">
+      <article class="member reveal" style="--d:.05s">
+        <div class="member__count">412</div>
+        <h3>יזמים</h3>
+        <p>יזמי נדל״ן פרטיים ויזמים בחברות, מקבוצות רכישה ועד מגדלים.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=12)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=22)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=33)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.1s">
+        <div class="member__count">386</div>
+        <h3>משקיעים</h3>
+        <p>משקיעים פרטיים, משפחתיים ומוסדיים — בארץ ובחו״ל.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=15)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=44)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=55)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.15s">
+        <div class="member__count">118</div>
+        <h3>שמאי מקרקעין</h3>
+        <p>שמאים מובילים בענף, שמלווים עסקאות, פרויקטים ובדיקות נאותות.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=8)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=18)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=28)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.05s">
+        <div class="member__count">294</div>
+        <h3>עורכי דין</h3>
+        <p>משרדי עו״ד בנדל״ן, ליווי עסקאות, התחדשות עירונית ומיסוי.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=5)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=25)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=45)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.1s">
+        <div class="member__count">208</div>
+        <h3>קבלנים ומבצעים</h3>
+        <p>חברות ביצוע, קבלני שלד וגמר, ספקי תשתיות ושירותי בנייה.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=14)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=34)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=54)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.15s">
+        <div class="member__count">521</div>
+        <h3>מתווכים</h3>
+        <p>סוכנויות תיווך ומתווכים פרטיים — מסחרי, מגורים, יוקרה.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=20)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=40)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=60)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.05s">
+        <div class="member__count">142</div>
+        <h3>אדריכלים ומתכננים</h3>
+        <p>משרדי תכנון ובינוי ערים, אדריכלי פנים ועיצוב מבנים.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=2)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=32)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=52)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.1s">
+        <div class="member__count">94</div>
+        <h3>חברות מימון</h3>
+        <p>בנקאים, יועצי משכנתאות, קרנות חוב והון פרטי.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=17)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=37)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=57)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.15s">
+        <div class="member__count">76</div>
+        <h3>פרופטק</h3>
+        <p>סטארטאפים וחברות טכנולוגיה שמשנות את ענף הנדל״ן.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=11)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=31)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=51)"></span>
+        </div>
+      </article>
+
+      <article class="member reveal" style="--d:.05s">
+        <div class="member__count">163</div>
+        <h3>שיווק ופרסום נדל״ן</h3>
+        <p>אנשי שיווק, מיתוג, דיגיטל ופרסום מהמובילים בענף.</p>
+        <div class="member__avatars" aria-hidden="true">
+          <span style="background-image:url(https://i.pravatar.cc/80?img=9)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=29)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/80?img=49)"></span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WHY JOIN -->
+<section class="why">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <span class="eyebrow reveal"><span class="dot"></span>למה להצטרף</span>
+      <h2 class="reveal" style="--d:.1s">שמונה סיבות.<br/><em>אחת מספיקה.</em></h2>
+    </header>
+
+    <div class="why__grid">
+      <article class="why__card reveal" style="--d:.05s">
+        <div class="why__num">01</div>
+        <h3>גישה לאנשים הנכונים</h3>
+        <p>היכרות ישירה עם הדמויות שמזיזות את ענף הנדל״ן הישראלי.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.1s">
+        <div class="why__num">02</div>
+        <h3>נטוורקינג איכותי</h3>
+        <p>מפגשים אינטימיים, פאנלים סגורים וטבלאות עגולות.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.15s">
+        <div class="why__num">03</div>
+        <h3>שיתופי פעולה</h3>
+        <p>שותפויות עסקיות שמתחילות מהיכרות אישית בקהילה.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.2s">
+        <div class="why__num">04</div>
+        <h3>חשיפה להזדמנויות</h3>
+        <p>פרויקטים ועסקאות שלא יוצאות החוצה — קודם בקהילה.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.05s">
+        <div class="why__num">05</div>
+        <h3>למידה מקצועית</h3>
+        <p>הרצאות, מאסטרקלאסים ושיחות עומק עם המומחים בענף.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.1s">
+        <div class="why__num">06</div>
+        <h3>אירועים וכנסים</h3>
+        <p>למעלה מ‑120 אירועים בשנה — מקטנים ועד הכנס השנתי.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.15s">
+        <div class="why__num">07</div>
+        <h3>קהילה פעילה</h3>
+        <p>קבוצות, פורומים ושיחות יומיות סביב הנושאים החמים.</p>
+      </article>
+      <article class="why__card reveal" style="--d:.2s">
+        <div class="why__num">08</div>
+        <h3>היכרויות עסקיות</h3>
+        <p>מקרים אמיתיים של שותפים שמצאו זה את זה דרכנו.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SUCCESS STORIES -->
+<section class="stories" id="stories">
+  <div class="container">
+    <header class="section-head">
+      <span class="eyebrow reveal"><span class="dot"></span>סיפורי הצלחה</span>
+      <h2 class="reveal" style="--d:.1s">חיבורים שהפכו <em>לעסקאות.</em></h2>
+      <p class="section-sub reveal" style="--d:.2s">לא טקסט שיווקי. סיפורים אמיתיים של אנשים אמיתיים בקהילה.</p>
+    </header>
+
+    <div class="stories__grid">
+      <article class="story story--lg reveal" style="--d:.05s">
+        <figure class="story__img">
+          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=900&q=80" alt="" />
+        </figure>
+        <div class="story__body">
+          <blockquote>"הכרתי את השותף שלי לפרויקט של 40 יחידות דיור בערב סוף שנה של הנדלניסטים. שש שעות של שיחות הפכו לשותפות של שלוש שנים."</blockquote>
+          <div class="story__by">
+            <div class="story__avatar" style="background-image:url(https://i.pravatar.cc/120?img=68)"></div>
+            <div>
+              <div class="story__name">איתי לבנון</div>
+              <div class="story__role">יזם, לבנון נדל״ן</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story reveal" style="--d:.15s">
+        <div class="story__tag">שותפות עסקית</div>
+        <blockquote>"מצאתי שותף לקרקע בקיסריה דרך קבוצת הוואטסאפ. סגרנו עסקה תוך שבועיים."</blockquote>
+        <div class="story__by">
+          <div class="story__avatar" style="background-image:url(https://i.pravatar.cc/120?img=47)"></div>
+          <div>
+            <div class="story__name">נועה ברגר</div>
+            <div class="story__role">יזמית, ברגר השקעות</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story reveal" style="--d:.25s">
+        <div class="story__tag">לקוחות חדשים</div>
+        <blockquote>"כעורך דין, הקהילה הפכה להיות מקור הלקוחות הראשי שלי. שירות שמומלץ הוא הכי איכותי."</blockquote>
+        <div class="story__by">
+          <div class="story__avatar" style="background-image:url(https://i.pravatar.cc/120?img=33)"></div>
+          <div>
+            <div class="story__name">עו״ד דניאל כהן</div>
+            <div class="story__role">משרד כהן ושות׳</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story reveal" style="--d:.05s">
+        <div class="story__tag">שיתוף פעולה</div>
+        <blockquote>"באחת מהארוחות החודשיות פגשנו את אדריכל הפרויקט הבא שלנו. כימיה ב‑10 דקות."</blockquote>
+        <div class="story__by">
+          <div class="story__avatar" style="background-image:url(https://i.pravatar.cc/120?img=53)"></div>
+          <div>
+            <div class="story__name">רן מימון</div>
+            <div class="story__role">מנכ״ל, מימון בנייה</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="story story--lg story--dark reveal" style="--d:.15s">
+        <figure class="story__img">
+          <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=900&q=80" alt="" />
+        </figure>
+        <div class="story__body">
+          <blockquote>"הצטרפנו לקהילה כסטארטאפ קטן. שנתיים אחרי, חצי מבסיס הלקוחות שלנו הם חברים בקהילה. זה לא מקרה."</blockquote>
+          <div class="story__by">
+            <div class="story__avatar" style="background-image:url(https://i.pravatar.cc/120?img=24)"></div>
+            <div>
+              <div class="story__name">שירה אלוני</div>
+              <div class="story__role">מייסדת, PropAI</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ RECOMMENDATIONS -->
+<section class="recos">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <span class="eyebrow reveal"><span class="dot"></span>המלצות מקצועיות</span>
+      <h2 class="reveal" style="--d:.1s">מה אומרים <em>עלינו.</em></h2>
+    </header>
+
+    <div class="recos__grid">
+      <article class="reco reveal" style="--d:.05s">
+        <div class="reco__video">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=900&q=80" alt="" />
+          <button class="reco__play" aria-label="נגן וידאו">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <div class="reco__duration">02:14</div>
+        </div>
+        <div class="reco__meta">
+          <div class="reco__name">אלון שמיר</div>
+          <div class="reco__role">סמנכ״ל פיתוח עסקי, שיכון ובינוי</div>
+        </div>
+      </article>
+
+      <article class="reco reveal" style="--d:.15s">
+        <div class="reco__video">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&q=80" alt="" />
+          <button class="reco__play" aria-label="נגן וידאו">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <div class="reco__duration">01:47</div>
+        </div>
+        <div class="reco__meta">
+          <div class="reco__name">ד״ר ענת רוזנברג</div>
+          <div class="reco__role">שמאית מקרקעין, רוזנברג שמאות</div>
+        </div>
+      </article>
+
+      <article class="reco reveal" style="--d:.25s">
+        <div class="reco__video">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&q=80" alt="" />
+          <button class="reco__play" aria-label="נגן וידאו">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <div class="reco__duration">03:02</div>
+        </div>
+        <div class="reco__meta">
+          <div class="reco__name">יואב פרידמן</div>
+          <div class="reco__role">מנכ״ל, פרידמן השקעות נדל״ן</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ FEATURED EVENT -->
+<section class="featured" id="featured-event">
+  <div class="featured__bg" data-parallax>
+    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=2400&q=80" alt="" />
+  </div>
+  <div class="container featured__grid">
+    <div class="featured__text">
+      <span class="eyebrow eyebrow--light reveal"><span class="dot"></span>האירוע המרכזי</span>
+      <div class="featured__date reveal" style="--d:.1s">
+        <div><span>14</span>יוני</div>
+        <div class="featured__date-sep"></div>
+        <div><span>2026</span>תל אביב</div>
+      </div>
+      <h2 class="featured__title reveal" style="--d:.2s">
+        כנס הנדלניסטים<br/><em>השנתי 2026</em>
+      </h2>
+      <p class="featured__desc reveal" style="--d:.3s">
+        12 שעות של פאנלים, מאסטרקלאסים ונטוורקינג בלב תל אביב.
+        עם הדמויות המובילות בענף — יזמים, משקיעים, רגולטורים ומקבלי החלטות.
+      </p>
+
+      <div class="featured__speakers reveal" style="--d:.4s">
+        <div class="featured__speakers-imgs">
+          <span style="background-image:url(https://i.pravatar.cc/120?img=12)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/120?img=22)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/120?img=32)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/120?img=42)"></span>
+          <span style="background-image:url(https://i.pravatar.cc/120?img=52)"></span>
+        </div>
+        <div class="featured__speakers-text">
+          <strong>+42 מרצים</strong><br/>
+          מהמובילים בענף הנדל״ן הישראלי
+        </div>
+      </div>
+
+      <div class="featured__cta reveal" style="--d:.5s">
+        <a href="#" class="btn btn--white btn--lg">
+          <span>הירשמו לכנס</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="btn btn--ghost-light btn--lg">תוכנית הכנס</a>
+      </div>
+    </div>
+
+    <aside class="featured__card reveal" style="--d:.25s">
+      <div class="featured__card-img">
+        <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=900&q=80" alt="" />
+      </div>
+      <div class="featured__card-body">
+        <div class="featured__card-row">
+          <span>מיקום</span><strong>אקספו תל אביב, ביתן 1</strong>
+        </div>
+        <div class="featured__card-row">
+          <span>שעות</span><strong>09:00 — 21:00</strong>
+        </div>
+        <div class="featured__card-row">
+          <span>פאנלים</span><strong>14 מסלולים מקבילים</strong>
+        </div>
+        <div class="featured__card-row">
+          <span>משתתפים</span><strong>+1,400</strong>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ SPONSORS -->
+<section class="sponsors">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <span class="eyebrow reveal"><span class="dot"></span>שותפים</span>
+      <h2 class="reveal" style="--d:.1s">עומדים <em>איתנו.</em></h2>
+    </header>
+
+    <div class="sponsors__group reveal" style="--d:.2s">
+      <h4 class="sponsors__title">שותפים קבועים</h4>
+      <div class="sponsors__logos">
+        <div class="sponsors__logo">שיכון ובינוי</div>
+        <div class="sponsors__logo">אזורים</div>
+        <div class="sponsors__logo">דוניץ</div>
+        <div class="sponsors__logo">אאורה</div>
+        <div class="sponsors__logo">צ׳ריטון</div>
+        <div class="sponsors__logo">אפריקה ישראל</div>
+      </div>
+    </div>
+
+    <div class="sponsors__group reveal" style="--d:.3s">
+      <h4 class="sponsors__title">נותני חסות לאירועים</h4>
+      <div class="sponsors__logos sponsors__logos--sm">
+        <div class="sponsors__logo">בנק לאומי</div>
+        <div class="sponsors__logo">דלויט</div>
+        <div class="sponsors__logo">EY</div>
+        <div class="sponsors__logo">KPMG</div>
+        <div class="sponsors__logo">PWC</div>
+        <div class="sponsors__logo">פירמת עו״ד גורניצקי</div>
+        <div class="sponsors__logo">הרצוג פוקס נאמן</div>
+        <div class="sponsors__logo">גושן את ארנון</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ PROJECTS -->
+<section class="projects">
+  <div class="container">
+    <header class="section-head">
+      <span class="eyebrow reveal"><span class="dot"></span>פרויקטים ושיתופי פעולה</span>
+      <h2 class="reveal" style="--d:.1s">דברים <em>שקרו כאן.</em></h2>
+      <p class="section-sub reveal" style="--d:.2s">פרויקטים, עסקאות ושיתופי פעולה שנולדו בתוך הקהילה.</p>
+    </header>
+
+    <div class="projects__grid">
+      <article class="project reveal" style="--d:.05s">
+        <figure class="project__img">
+          <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=80" alt="" />
+          <div class="project__tag">התחדשות עירונית</div>
+        </figure>
+        <div class="project__body">
+          <h3>פינוי‑בינוי, גבעת שמואל</h3>
+          <p>שיתוף פעולה בין 3 יזמים שנפגשו בקהילה. 240 יחידות.</p>
+          <div class="project__meta">
+            <span>2024 — היום</span>
+            <span>·</span>
+            <span>3 שותפים</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal" style="--d:.15s">
+        <figure class="project__img">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=80" alt="" />
+          <div class="project__tag">קרקע יזמית</div>
+        </figure>
+        <div class="project__body">
+          <h3>מתחם מסחרי, ראש העין</h3>
+          <p>קבוצת השקעה של 14 חברי קהילה. הון של 28M ש״ח.</p>
+          <div class="project__meta">
+            <span>2023</span>
+            <span>·</span>
+            <span>14 שותפים</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal" style="--d:.25s">
+        <figure class="project__img">
+          <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?w=900&q=80" alt="" />
+          <div class="project__tag">מגדל יוקרה</div>
+        </figure>
+        <div class="project__body">
+          <h3>מגדל הברזל, רמת גן</h3>
+          <p>שותפות יזמית בין שני חברים. 32 קומות, מסחר ומגורים.</p>
+          <div class="project__meta">
+            <span>2022 — 2025</span>
+            <span>·</span>
+            <span>2 שותפים</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project reveal" style="--d:.05s">
+        <figure class="project__img">
+          <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=900&q=80" alt="" />
+          <div class="project__tag">מימון</div>
+        </figure>
+        <div class="project__body">
+          <h3>קרן חוב נדל״ן</h3>
+          <p>קרן שהוקמה על ידי 4 חברי קהילה. 120M ש״ח גיוס ראשון.</p>
+          <div class="project__meta">
+            <span>2024</span>
+            <span>·</span>
+            <span>4 שותפים</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ARTICLES -->
+<section class="articles" id="articles">
+  <div class="container">
+    <header class="section-head section-head--row">
+      <div>
+        <span class="eyebrow reveal"><span class="dot"></span>תוכן מקצועי</span>
+        <h2 class="reveal" style="--d:.1s">קריאה <em>איכותית.</em></h2>
+      </div>
+      <a href="#" class="link-arrow reveal" style="--d:.2s">
+        <span>כל הכתבות</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </header>
+
+    <div class="articles__grid">
+      <article class="article article--feature reveal" style="--d:.05s">
+        <figure class="article__img">
+          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=80" alt="" />
+        </figure>
+        <div class="article__body">
+          <div class="article__cat">ניתוח שוק</div>
+          <h3>איפה נסגרות עכשיו עסקאות הקרקע הכי טובות?</h3>
+          <p>מיפוי של 18 חודשים אחרונים בשוק הקרקעות הפרטי — והאזורים שמתחתם הפעילות שקטה אבל הרווחיות גבוהה.</p>
+          <div class="article__meta">
+            <span>אלון שמיר</span>
+            <span>·</span>
+            <span>14 דק׳ קריאה</span>
+            <span>·</span>
+            <span>מאי 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="article reveal" style="--d:.15s">
+        <div class="article__cat">רגולציה</div>
+        <h3>חוק התחדשות עירונית 2026 — מה צריך לדעת</h3>
+        <div class="article__meta">
+          <span>עו״ד דניאל כהן</span>
+          <span>·</span>
+          <span>9 דק׳</span>
+        </div>
+      </article>
+
+      <article class="article reveal" style="--d:.25s">
+        <div class="article__cat">פרופטק</div>
+        <h3>5 פלטפורמות שמשנות את עולם המכרזים</h3>
+        <div class="article__meta">
+          <span>שירה אלוני</span>
+          <span>·</span>
+          <span>6 דק׳</span>
+        </div>
+      </article>
+
+      <article class="article reveal" style="--d:.35s">
+        <div class="article__cat">מימון</div>
+        <h3>קרנות חוב נדל״ן — איך לבחור נכון</h3>
+        <div class="article__meta">
+          <span>רן מימון</span>
+          <span>·</span>
+          <span>11 דק׳</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ UPCOMING EVENTS -->
+<section class="events" id="events">
+  <div class="container">
+    <header class="section-head section-head--row">
+      <div>
+        <span class="eyebrow reveal"><span class="dot"></span>אירועים קרובים</span>
+        <h2 class="reveal" style="--d:.1s">הקלנדר <em>שלכם.</em></h2>
+      </div>
+      <a href="#" class="link-arrow reveal" style="--d:.2s">
+        <span>לכל האירועים</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </header>
+
+    <div class="events__list">
+      <article class="event reveal" style="--d:.05s">
+        <div class="event__date">
+          <span class="event__day">28</span>
+          <span class="event__month">מאי</span>
+        </div>
+        <div class="event__body">
+          <div class="event__tag">ארוחת ערב סגורה</div>
+          <h3>שולחן עגול — יזמי התחדשות עירונית</h3>
+          <p>20 יזמים. שולחן אחד. נושאים חמים בתעשייה. רק לחברי קהילה.</p>
+          <div class="event__meta">
+            <span>מסעדת מסה, תל אביב</span><span>·</span><span>20:00</span>
+          </div>
+        </div>
+        <a href="#" class="event__cta">
+          <span>הירשמו</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <article class="event reveal" style="--d:.1s">
+        <div class="event__date">
+          <span class="event__day">04</span>
+          <span class="event__month">יוני</span>
+        </div>
+        <div class="event__body">
+          <div class="event__tag">מאסטרקלאס</div>
+          <h3>קרנות חוב פרטיות — A to Z</h3>
+          <p>שלוש שעות עומק עם מנהלי שלוש הקרנות המובילות בארץ.</p>
+          <div class="event__meta">
+            <span>WeWork גינדי, ת״א</span><span>·</span><span>09:30</span>
+          </div>
+        </div>
+        <a href="#" class="event__cta">
+          <span>הירשמו</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <article class="event reveal" style="--d:.15s">
+        <div class="event__date">
+          <span class="event__day">14</span>
+          <span class="event__month">יוני</span>
+        </div>
+        <div class="event__body">
+          <div class="event__tag event__tag--accent">הכנס השנתי</div>
+          <h3>כנס הנדלניסטים 2026</h3>
+          <p>היום הגדול של הקהילה. 42 מרצים. 14 פאנלים. +1,400 משתתפים.</p>
+          <div class="event__meta">
+            <span>אקספו תל אביב</span><span>·</span><span>09:00 — 21:00</span>
+          </div>
+        </div>
+        <a href="#" class="event__cta">
+          <span>הירשמו</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <article class="event reveal" style="--d:.2s">
+        <div class="event__date">
+          <span class="event__day">02</span>
+          <span class="event__month">יולי</span>
+        </div>
+        <div class="event__body">
+          <div class="event__tag">סיור מקצועי</div>
+          <h3>סיור בפרויקטים החדשים בתל אביב</h3>
+          <p>סיור מודרך עם היזמים — ארבעה מגדלים בלב העיר.</p>
+          <div class="event__meta">
+            <span>נקודת מפגש — שרונה</span><span>·</span><span>16:00</span>
+          </div>
+        </div>
+        <a href="#" class="event__cta">
+          <span>הירשמו</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ CONTACT / JOIN -->
+<section class="contact" id="contact">
+  <div class="container contact__grid">
+    <div class="contact__text">
+      <span class="eyebrow eyebrow--light reveal"><span class="dot"></span>הצטרפו אלינו</span>
+      <h2 class="reveal" style="--d:.1s">
+        בואו להיות חלק<br/>
+        <em>מהקהילה שמזיזה</em><br/>
+        את ענף הנדל״ן.
+      </h2>
+      <p class="reveal" style="--d:.2s">
+        השאירו פרטים ואנחנו נחזור אליכם תוך 24 שעות עם פרטים על
+        תהליך ההצטרפות, החברות והאירועים הקרובים.
+      </p>
+
+      <div class="contact__channels reveal" style="--d:.3s">
+        <a href="#" class="contact__channel">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4l-2.6-1.3a.8.8 0 0 0-.9.1l-1.2 1.2c-1.9-.9-3.4-2.4-4.3-4.3l1.2-1.2a.8.8 0 0 0 .1-.9L8.5 5.4a.8.8 0 0 0-.9-.4l-2.3.6a.8.8 0 0 0-.6.8c0 5.9 4.8 10.7 10.7 10.7a.8.8 0 0 0 .8-.6l.6-2.3a.8.8 0 0 0-.4-.9z"/></svg>
+          <span>וואטסאפ</span>
+        </a>
+        <a href="#" class="contact__channel">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18H5.7V9.7h2.6V18zM7 8.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM18 18h-2.6v-4.3c0-1 0-2.3-1.4-2.3-1.4 0-1.6 1.1-1.6 2.2V18H9.8V9.7h2.5v1.1h0c.4-.7 1.2-1.4 2.6-1.4 2.7 0 3.2 1.8 3.2 4.1V18z"/></svg>
+          <span>לינקדאין</span>
+        </a>
+        <a href="mailto:hello@nadlanistim.co.il" class="contact__channel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span>אימייל</span>
+        </a>
+      </div>
+    </div>
+
+    <form class="contact__form reveal" style="--d:.15s" onsubmit="event.preventDefault(); this.classList.add('sent');">
+      <h3>הרשמה לקהילה</h3>
+
+      <div class="field">
+        <label for="f-name">שם מלא</label>
+        <input id="f-name" type="text" required placeholder="ישראלה ישראלי" />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="f-phone">טלפון</label>
+          <input id="f-phone" type="tel" required placeholder="050‑0000000" />
+        </div>
+        <div class="field">
+          <label for="f-email">אימייל</label>
+          <input id="f-email" type="email" required placeholder="you@company.com" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-role">תחום עיסוק</label>
+        <select id="f-role" required>
+          <option value="">בחרו תחום…</option>
+          <option>יזם / יזמית</option>
+          <option>משקיע / משקיעה</option>
+          <option>שמאי מקרקעין</option>
+          <option>עו״ד</option>
+          <option>קבלן</option>
+          <option>מתווך / מתווכת</option>
+          <option>אדריכל / אדריכלית</option>
+          <option>חברת מימון</option>
+          <option>פרופטק</option>
+          <option>שיווק נדל״ן</option>
+          <option>אחר</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--block btn--lg">
+        <span>שליחת בקשה</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <p class="contact__fine">בלחיצה על שליחה את/ה מאשר/ת קבלת תקשורת מהקהילה.</p>
+
+      <div class="contact__sent-msg">
+        <strong>הבקשה נשלחה. ✓</strong>
+        <span>נחזור אליך תוך 24 שעות.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <span class="nav__logo-mark">N</span>
+          <span>הנדלניסטים</span>
+        </div>
+        <p>הקהילה המקצועית של ענף הנדל״ן בישראל.<br/>קשרים. אירועים. הזדמנויות.</p>
+      </div>
+
+      <div class="footer__cols">
+        <div>
+          <h5>קהילה</h5>
+          <a href="#about">אודות</a>
+          <a href="#members">חברי הקהילה</a>
+          <a href="#stories">סיפורי הצלחה</a>
+        </div>
+        <div>
+          <h5>אירועים</h5>
+          <a href="#events">קרובים</a>
+          <a href="#featured-event">הכנס השנתי</a>
+          <a href="#">ארכיון אירועים</a>
+        </div>
+        <div>
+          <h5>תוכן</h5>
+          <a href="#articles">כתבות</a>
+          <a href="#">ניוזלטר</a>
+          <a href="#">פודקאסט</a>
+        </div>
+        <div>
+          <h5>צרו קשר</h5>
+          <a href="#contact">הצטרפות</a>
+          <a href="mailto:hello@nadlanistim.co.il">אימייל</a>
+          <a href="#">וואטסאפ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 הנדלניסטים. כל הזכויות שמורות.</span>
+      <span class="footer__legal">
+        <a href="#">תנאי שימוש</a>
+        <a href="#">פרטיות</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="script-light.js"></script>
+</body>
+</html>
